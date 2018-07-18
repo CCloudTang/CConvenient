@@ -41,7 +41,7 @@
     return [self labelText:text font:[UIFont systemFontOfSize:size] color:color textAlign:align];
 }
 
-
+#pragma mark -
 + (void)changeLineSpace:(float)space forLabel:(UILabel *)label{
     NSString *labelText = label.text;
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:labelText];
