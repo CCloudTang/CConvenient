@@ -19,24 +19,13 @@ Pod::Spec.new do |s|
 
   #s.author             = { "" => "" }
   s.author = "CloudTang"
-  # Or just: s.author    = ""
-  # s.authors            = { "" => "" }
-  # s.social_media_url   = "http://twitter.com/"
 
   # s.platform     = :ios
   s.platform     = :ios, "6.0"
 
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
-
-
   s.source       = { :git => "https://github.com/CCloudTang/CConvenient.git", :tag => s.version }
 
-
-  s.source_files  = "CConvenient/**/*.{h,m}"
+  s.source_files  = "CConvenient","CConvenient/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
